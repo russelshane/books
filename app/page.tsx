@@ -34,7 +34,7 @@ export default async function Home() {
         <h2 className="text-lg font-bold text-obsidian cursor-default">
           Books
         </h2>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4 sm:grid-cols-1">
           {books.results.books.map((val: any, index: any) => (
             <Book
               key={index}
